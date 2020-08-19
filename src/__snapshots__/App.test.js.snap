@@ -1,0 +1,1279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar Component renders correctly 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  className="makeStyles-appBar-7"
+  position="fixed"
+>
+  <WithStyles(ForwardRef(Toolbar))>
+    <WithStyles(ForwardRef(Typography))
+      variant="h6"
+    >
+      Feed
+    </WithStyles(ForwardRef(Typography))>
+    <div />
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>
+`;
+
+exports[`Comment Field Component renders correctly 1`] = `
+<Connect(CommentField)
+  id={1}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <CommentField
+    add_Comment={[Function]}
+    id={1}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <WithStyles(ForwardRef(ListItem))
+      className="makeStyles-nested-9"
+    >
+      <ForwardRef(ListItem)
+        className="makeStyles-nested-9"
+        classes={
+          Object {
+            "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+            "button": "MuiListItem-button",
+            "container": "MuiListItem-container",
+            "dense": "MuiListItem-dense",
+            "disabled": "Mui-disabled",
+            "divider": "MuiListItem-divider",
+            "focusVisible": "Mui-focusVisible",
+            "gutters": "MuiListItem-gutters",
+            "root": "MuiListItem-root",
+            "secondaryAction": "MuiListItem-secondaryAction",
+            "selected": "Mui-selected",
+          }
+        }
+      >
+        <li
+          className="MuiListItem-container"
+        >
+          <div
+            className="MuiListItem-root makeStyles-nested-9 MuiListItem-gutters MuiListItem-secondaryAction"
+            disabled={false}
+          >
+            <WithStyles(ForwardRef(TextField))
+              InputLabelProps={
+                Object {
+                  "shrink": true,
+                }
+              }
+              fullWidth={true}
+              id="standard-full-width"
+              key=".0"
+              label="Share your opinion"
+              margin="normal"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Write your comment here"
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+              value=""
+            >
+              <ForwardRef(TextField)
+                InputLabelProps={
+                  Object {
+                    "shrink": true,
+                  }
+                }
+                classes={
+                  Object {
+                    "root": "MuiTextField-root",
+                  }
+                }
+                fullWidth={true}
+                id="standard-full-width"
+                label="Share your opinion"
+                margin="normal"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Write your comment here"
+                style={
+                  Object {
+                    "margin": 0,
+                  }
+                }
+                value=""
+              >
+                <WithStyles(ForwardRef(FormControl))
+                  className="MuiTextField-root"
+                  color="primary"
+                  disabled={false}
+                  error={false}
+                  fullWidth={true}
+                  margin="normal"
+                  onKeyDown={[Function]}
+                  required={false}
+                  style={
+                    Object {
+                      "margin": 0,
+                    }
+                  }
+                  variant="standard"
+                >
+                  <ForwardRef(FormControl)
+                    className="MuiTextField-root"
+                    classes={
+                      Object {
+                        "fullWidth": "MuiFormControl-fullWidth",
+                        "marginDense": "MuiFormControl-marginDense",
+                        "marginNormal": "MuiFormControl-marginNormal",
+                        "root": "MuiFormControl-root",
+                      }
+                    }
+                    color="primary"
+                    disabled={false}
+                    error={false}
+                    fullWidth={true}
+                    margin="normal"
+                    onKeyDown={[Function]}
+                    required={false}
+                    style={
+                      Object {
+                        "margin": 0,
+                      }
+                    }
+                    variant="standard"
+                  >
+                    <div
+                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                      onKeyDown={[Function]}
+                      style={
+                        Object {
+                          "margin": 0,
+                        }
+                      }
+                    >
+                      <WithStyles(ForwardRef(InputLabel))
+                        htmlFor="standard-full-width"
+                        id="standard-full-width-label"
+                        shrink={true}
+                      >
+                        <ForwardRef(InputLabel)
+                          classes={
+                            Object {
+                              "animated": "MuiInputLabel-animated",
+                              "asterisk": "MuiInputLabel-asterisk",
+                              "disabled": "Mui-disabled",
+                              "error": "Mui-error",
+                              "filled": "MuiInputLabel-filled",
+                              "focused": "Mui-focused",
+                              "formControl": "MuiInputLabel-formControl",
+                              "marginDense": "MuiInputLabel-marginDense",
+                              "outlined": "MuiInputLabel-outlined",
+                              "required": "Mui-required",
+                              "root": "MuiInputLabel-root",
+                              "shrink": "MuiInputLabel-shrink",
+                            }
+                          }
+                          htmlFor="standard-full-width"
+                          id="standard-full-width-label"
+                          shrink={true}
+                        >
+                          <WithStyles(ForwardRef(FormLabel))
+                            className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+                            classes={
+                              Object {
+                                "asterisk": "MuiInputLabel-asterisk",
+                                "disabled": "Mui-disabled",
+                                "error": "Mui-error",
+                                "focused": "Mui-focused",
+                                "required": "Mui-required",
+                              }
+                            }
+                            data-shrink={true}
+                            htmlFor="standard-full-width"
+                            id="standard-full-width-label"
+                          >
+                            <ForwardRef(FormLabel)
+                              className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+                              classes={
+                                Object {
+                                  "asterisk": "MuiFormLabel-asterisk MuiInputLabel-asterisk",
+                                  "colorSecondary": "MuiFormLabel-colorSecondary",
+                                  "disabled": "Mui-disabled Mui-disabled",
+                                  "error": "Mui-error Mui-error",
+                                  "filled": "MuiFormLabel-filled",
+                                  "focused": "Mui-focused Mui-focused",
+                                  "required": "Mui-required Mui-required",
+                                  "root": "MuiFormLabel-root",
+                                }
+                              }
+                              data-shrink={true}
+                              htmlFor="standard-full-width"
+                              id="standard-full-width-label"
+                            >
+                              <label
+                                className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+                                data-shrink={true}
+                                htmlFor="standard-full-width"
+                                id="standard-full-width-label"
+                              >
+                                Share your opinion
+                              </label>
+                            </ForwardRef(FormLabel)>
+                          </WithStyles(ForwardRef(FormLabel))>
+                        </ForwardRef(InputLabel)>
+                      </WithStyles(ForwardRef(InputLabel))>
+                      <WithStyles(ForwardRef(Input))
+                        autoFocus={false}
+                        fullWidth={true}
+                        id="standard-full-width"
+                        multiline={false}
+                        onChange={[Function]}
+                        placeholder="Write your comment here"
+                        value=""
+                      >
+                        <ForwardRef(Input)
+                          autoFocus={false}
+                          classes={
+                            Object {
+                              "colorSecondary": "MuiInput-colorSecondary",
+                              "disabled": "Mui-disabled",
+                              "error": "Mui-error",
+                              "focused": "Mui-focused",
+                              "formControl": "MuiInput-formControl",
+                              "fullWidth": "MuiInput-fullWidth",
+                              "input": "MuiInput-input",
+                              "inputMarginDense": "MuiInput-inputMarginDense",
+                              "inputMultiline": "MuiInput-inputMultiline",
+                              "inputTypeSearch": "MuiInput-inputTypeSearch",
+                              "marginDense": "MuiInput-marginDense",
+                              "multiline": "MuiInput-multiline",
+                              "root": "MuiInput-root",
+                              "underline": "MuiInput-underline",
+                            }
+                          }
+                          fullWidth={true}
+                          id="standard-full-width"
+                          multiline={false}
+                          onChange={[Function]}
+                          placeholder="Write your comment here"
+                          value=""
+                        >
+                          <WithStyles(ForwardRef(InputBase))
+                            autoFocus={false}
+                            classes={
+                              Object {
+                                "colorSecondary": "MuiInput-colorSecondary",
+                                "disabled": "Mui-disabled",
+                                "error": "Mui-error",
+                                "focused": "Mui-focused",
+                                "formControl": "MuiInput-formControl",
+                                "fullWidth": "MuiInput-fullWidth",
+                                "input": "MuiInput-input",
+                                "inputMarginDense": "MuiInput-inputMarginDense",
+                                "inputMultiline": "MuiInput-inputMultiline",
+                                "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                "marginDense": "MuiInput-marginDense",
+                                "multiline": "MuiInput-multiline",
+                                "root": "MuiInput-root MuiInput-underline",
+                                "underline": null,
+                              }
+                            }
+                            fullWidth={true}
+                            id="standard-full-width"
+                            inputComponent="input"
+                            multiline={false}
+                            onChange={[Function]}
+                            placeholder="Write your comment here"
+                            type="text"
+                            value=""
+                          >
+                            <ForwardRef(InputBase)
+                              autoFocus={false}
+                              classes={
+                                Object {
+                                  "adornedEnd": "MuiInputBase-adornedEnd",
+                                  "adornedStart": "MuiInputBase-adornedStart",
+                                  "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                                  "disabled": "Mui-disabled Mui-disabled",
+                                  "error": "Mui-error Mui-error",
+                                  "focused": "Mui-focused Mui-focused",
+                                  "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                                  "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                                  "input": "MuiInputBase-input MuiInput-input",
+                                  "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                                  "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                                  "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                                  "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                                  "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                                  "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                                  "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                                  "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                                  "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
+                                }
+                              }
+                              fullWidth={true}
+                              id="standard-full-width"
+                              inputComponent="input"
+                              multiline={false}
+                              onChange={[Function]}
+                              placeholder="Write your comment here"
+                              type="text"
+                              value=""
+                            >
+                              <div
+                                className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                onClick={[Function]}
+                              >
+                                <input
+                                  aria-invalid={false}
+                                  autoFocus={false}
+                                  className="MuiInputBase-input MuiInput-input"
+                                  disabled={false}
+                                  id="standard-full-width"
+                                  onAnimationStart={[Function]}
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onFocus={[Function]}
+                                  placeholder="Write your comment here"
+                                  required={false}
+                                  type="text"
+                                  value=""
+                                />
+                              </div>
+                            </ForwardRef(InputBase)>
+                          </WithStyles(ForwardRef(InputBase))>
+                        </ForwardRef(Input)>
+                      </WithStyles(ForwardRef(Input))>
+                    </div>
+                  </ForwardRef(FormControl)>
+                </WithStyles(ForwardRef(FormControl))>
+              </ForwardRef(TextField)>
+            </WithStyles(ForwardRef(TextField))>
+          </div>
+          <WithStyles(ForwardRef(ListItemSecondaryAction))
+            key=".1"
+            onClick={[Function]}
+          >
+            <ForwardRef(ListItemSecondaryAction)
+              classes={
+                Object {
+                  "root": "MuiListItemSecondaryAction-root",
+                }
+              }
+              onClick={[Function]}
+            >
+              <div
+                className="MuiListItemSecondaryAction-root"
+                onClick={[Function]}
+              >
+                <WithStyles(ForwardRef(IconButton))
+                  aria-label="delete"
+                  edge="end"
+                >
+                  <ForwardRef(IconButton)
+                    aria-label="delete"
+                    classes={
+                      Object {
+                        "colorInherit": "MuiIconButton-colorInherit",
+                        "colorPrimary": "MuiIconButton-colorPrimary",
+                        "colorSecondary": "MuiIconButton-colorSecondary",
+                        "disabled": "Mui-disabled",
+                        "edgeEnd": "MuiIconButton-edgeEnd",
+                        "edgeStart": "MuiIconButton-edgeStart",
+                        "label": "MuiIconButton-label",
+                        "root": "MuiIconButton-root",
+                        "sizeSmall": "MuiIconButton-sizeSmall",
+                      }
+                    }
+                    edge="end"
+                  >
+                    <WithStyles(ForwardRef(ButtonBase))
+                      aria-label="delete"
+                      centerRipple={true}
+                      className="MuiIconButton-root MuiIconButton-edgeEnd"
+                      disabled={false}
+                      focusRipple={true}
+                    >
+                      <ForwardRef(ButtonBase)
+                        aria-label="delete"
+                        centerRipple={true}
+                        className="MuiIconButton-root MuiIconButton-edgeEnd"
+                        classes={
+                          Object {
+                            "disabled": "Mui-disabled",
+                            "focusVisible": "Mui-focusVisible",
+                            "root": "MuiButtonBase-root",
+                          }
+                        }
+                        disabled={false}
+                        focusRipple={true}
+                      >
+                        <button
+                          aria-label="delete"
+                          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiIconButton-label"
+                          >
+                            <ForwardRef
+                              color="action"
+                            >
+                              <WithStyles(ForwardRef(SvgIcon))
+                                color="action"
+                              >
+                                <ForwardRef(SvgIcon)
+                                  classes={
+                                    Object {
+                                      "colorAction": "MuiSvgIcon-colorAction",
+                                      "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                      "colorError": "MuiSvgIcon-colorError",
+                                      "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                      "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                      "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                      "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                      "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                      "root": "MuiSvgIcon-root",
+                                    }
+                                  }
+                                  color="action"
+                                >
+                                  <svg
+                                    aria-hidden={true}
+                                    className="MuiSvgIcon-root MuiSvgIcon-colorAction"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                                    />
+                                  </svg>
+                                </ForwardRef(SvgIcon)>
+                              </WithStyles(ForwardRef(SvgIcon))>
+                            </ForwardRef>
+                          </span>
+                          <WithStyles(memo)
+                            center={true}
+                          >
+                            <ForwardRef(TouchRipple)
+                              center={true}
+                              classes={
+                                Object {
+                                  "child": "MuiTouchRipple-child",
+                                  "childLeaving": "MuiTouchRipple-childLeaving",
+                                  "childPulsate": "MuiTouchRipple-childPulsate",
+                                  "ripple": "MuiTouchRipple-ripple",
+                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                  "root": "MuiTouchRipple-root",
+                                }
+                              }
+                            >
+                              <span
+                                className="MuiTouchRipple-root"
+                              >
+                                <TransitionGroup
+                                  childFactory={[Function]}
+                                  component={null}
+                                  exit={true}
+                                />
+                              </span>
+                            </ForwardRef(TouchRipple)>
+                          </WithStyles(memo)>
+                        </button>
+                      </ForwardRef(ButtonBase)>
+                    </WithStyles(ForwardRef(ButtonBase))>
+                  </ForwardRef(IconButton)>
+                </WithStyles(ForwardRef(IconButton))>
+              </div>
+            </ForwardRef(ListItemSecondaryAction)>
+          </WithStyles(ForwardRef(ListItemSecondaryAction))>
+        </li>
+      </ForwardRef(ListItem)>
+    </WithStyles(ForwardRef(ListItem))>
+  </CommentField>
+</Connect(CommentField)>
+`;
+
+exports[`CommentList Component renders correctly 1`] = `
+<Fragment>
+  <div
+    key="1"
+  >
+    <WithStyles(ForwardRef(ListItem))
+      alignItems="flex-start"
+    >
+      <WithStyles(ForwardRef(ListItemAvatar))>
+        <InsertEmoticonIcon
+          style={
+            Object {
+              "color": "#37475A",
+              "fontSize": 40,
+            }
+          }
+        />
+      </WithStyles(ForwardRef(ListItemAvatar))>
+      <WithStyles(ForwardRef(ListItemText))
+        primary="id labore ex et quam laborum"
+        secondary={
+          <React.Fragment>
+            <ForwardRef(WithStyles)
+              color="textPrimary"
+              component="span"
+              variant="body2"
+            >
+              Eliseo@gardner.biz - 
+            </ForwardRef(WithStyles)>
+            <ForwardRef(WithStyles)
+              color="textPrimary"
+              component="span"
+              style={
+                Object {
+                  "overflowWrap": "break-word",
+                }
+              }
+              variant="body2"
+            >
+              laudantium enim quasi est quidem magnam voluptate ipsam eos
+tempora quo necessitatibus
+dolor quam autem quasi
+reiciendis et nam sapiente accusantium
+            </ForwardRef(WithStyles)>
+          </React.Fragment>
+        }
+      />
+    </WithStyles(ForwardRef(ListItem))>
+    <WithStyles(ForwardRef(Divider))
+      light={true}
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Post Component renders correctly 1`] = `
+<Connect(Post)
+  body="Test"
+  comments={Array []}
+  id={1}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  title="Test"
+>
+  <Post
+    body="Test"
+    comments={Array []}
+    id={1}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    title="Test"
+  >
+    <WithStyles(ForwardRef(List))
+      aria-labelledby="nested-list-subheader"
+      className="makeStyles-root-4"
+      component="nav"
+      subheader={
+        <ForwardRef(WithStyles)
+          className="makeStyles-header-6"
+          component="div"
+          id="nested-list-subheader"
+        >
+          <ForwardRef(WithStyles)
+            gutterBottom={true}
+            variant="h6"
+          >
+            Post
+          </ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)
+            gutterBottom={true}
+            variant="subtitle1"
+          >
+            Test
+          </ForwardRef(WithStyles)>
+        </ForwardRef(WithStyles)>
+      }
+    >
+      <ForwardRef(List)
+        aria-labelledby="nested-list-subheader"
+        className="makeStyles-root-4"
+        classes={
+          Object {
+            "dense": "MuiList-dense",
+            "padding": "MuiList-padding",
+            "root": "MuiList-root",
+            "subheader": "MuiList-subheader",
+          }
+        }
+        component="nav"
+        subheader={
+          <ForwardRef(WithStyles)
+            className="makeStyles-header-6"
+            component="div"
+            id="nested-list-subheader"
+          >
+            <ForwardRef(WithStyles)
+              gutterBottom={true}
+              variant="h6"
+            >
+              Post
+            </ForwardRef(WithStyles)>
+            <ForwardRef(WithStyles)
+              gutterBottom={true}
+              variant="subtitle1"
+            >
+              Test
+            </ForwardRef(WithStyles)>
+          </ForwardRef(WithStyles)>
+        }
+      >
+        <nav
+          aria-labelledby="nested-list-subheader"
+          className="MuiList-root makeStyles-root-4 MuiList-padding MuiList-subheader"
+        >
+          <WithStyles(ForwardRef(ListSubheader))
+            className="makeStyles-header-6"
+            component="div"
+            id="nested-list-subheader"
+          >
+            <ForwardRef(ListSubheader)
+              className="makeStyles-header-6"
+              classes={
+                Object {
+                  "colorInherit": "MuiListSubheader-colorInherit",
+                  "colorPrimary": "MuiListSubheader-colorPrimary",
+                  "gutters": "MuiListSubheader-gutters",
+                  "inset": "MuiListSubheader-inset",
+                  "root": "MuiListSubheader-root",
+                  "sticky": "MuiListSubheader-sticky",
+                }
+              }
+              component="div"
+              id="nested-list-subheader"
+            >
+              <div
+                className="MuiListSubheader-root makeStyles-header-6 MuiListSubheader-sticky MuiListSubheader-gutters"
+                id="nested-list-subheader"
+              >
+                <WithStyles(ForwardRef(Typography))
+                  gutterBottom={true}
+                  variant="h6"
+                >
+                  <ForwardRef(Typography)
+                    classes={
+                      Object {
+                        "alignCenter": "MuiTypography-alignCenter",
+                        "alignJustify": "MuiTypography-alignJustify",
+                        "alignLeft": "MuiTypography-alignLeft",
+                        "alignRight": "MuiTypography-alignRight",
+                        "body1": "MuiTypography-body1",
+                        "body2": "MuiTypography-body2",
+                        "button": "MuiTypography-button",
+                        "caption": "MuiTypography-caption",
+                        "colorError": "MuiTypography-colorError",
+                        "colorInherit": "MuiTypography-colorInherit",
+                        "colorPrimary": "MuiTypography-colorPrimary",
+                        "colorSecondary": "MuiTypography-colorSecondary",
+                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                        "displayBlock": "MuiTypography-displayBlock",
+                        "displayInline": "MuiTypography-displayInline",
+                        "gutterBottom": "MuiTypography-gutterBottom",
+                        "h1": "MuiTypography-h1",
+                        "h2": "MuiTypography-h2",
+                        "h3": "MuiTypography-h3",
+                        "h4": "MuiTypography-h4",
+                        "h5": "MuiTypography-h5",
+                        "h6": "MuiTypography-h6",
+                        "noWrap": "MuiTypography-noWrap",
+                        "overline": "MuiTypography-overline",
+                        "paragraph": "MuiTypography-paragraph",
+                        "root": "MuiTypography-root",
+                        "srOnly": "MuiTypography-srOnly",
+                        "subtitle1": "MuiTypography-subtitle1",
+                        "subtitle2": "MuiTypography-subtitle2",
+                      }
+                    }
+                    gutterBottom={true}
+                    variant="h6"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
+                    >
+                      Post
+                    </h6>
+                  </ForwardRef(Typography)>
+                </WithStyles(ForwardRef(Typography))>
+                <WithStyles(ForwardRef(Typography))
+                  gutterBottom={true}
+                  variant="subtitle1"
+                >
+                  <ForwardRef(Typography)
+                    classes={
+                      Object {
+                        "alignCenter": "MuiTypography-alignCenter",
+                        "alignJustify": "MuiTypography-alignJustify",
+                        "alignLeft": "MuiTypography-alignLeft",
+                        "alignRight": "MuiTypography-alignRight",
+                        "body1": "MuiTypography-body1",
+                        "body2": "MuiTypography-body2",
+                        "button": "MuiTypography-button",
+                        "caption": "MuiTypography-caption",
+                        "colorError": "MuiTypography-colorError",
+                        "colorInherit": "MuiTypography-colorInherit",
+                        "colorPrimary": "MuiTypography-colorPrimary",
+                        "colorSecondary": "MuiTypography-colorSecondary",
+                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                        "displayBlock": "MuiTypography-displayBlock",
+                        "displayInline": "MuiTypography-displayInline",
+                        "gutterBottom": "MuiTypography-gutterBottom",
+                        "h1": "MuiTypography-h1",
+                        "h2": "MuiTypography-h2",
+                        "h3": "MuiTypography-h3",
+                        "h4": "MuiTypography-h4",
+                        "h5": "MuiTypography-h5",
+                        "h6": "MuiTypography-h6",
+                        "noWrap": "MuiTypography-noWrap",
+                        "overline": "MuiTypography-overline",
+                        "paragraph": "MuiTypography-paragraph",
+                        "root": "MuiTypography-root",
+                        "srOnly": "MuiTypography-srOnly",
+                        "subtitle1": "MuiTypography-subtitle1",
+                        "subtitle2": "MuiTypography-subtitle2",
+                      }
+                    }
+                    gutterBottom={true}
+                    variant="subtitle1"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom"
+                    >
+                      Test
+                    </h6>
+                  </ForwardRef(Typography)>
+                </WithStyles(ForwardRef(Typography))>
+              </div>
+            </ForwardRef(ListSubheader)>
+          </WithStyles(ForwardRef(ListSubheader))>
+          <WithStyles(ForwardRef(ListItem))>
+            <ForwardRef(ListItem)
+              classes={
+                Object {
+                  "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+                  "button": "MuiListItem-button",
+                  "container": "MuiListItem-container",
+                  "dense": "MuiListItem-dense",
+                  "disabled": "Mui-disabled",
+                  "divider": "MuiListItem-divider",
+                  "focusVisible": "Mui-focusVisible",
+                  "gutters": "MuiListItem-gutters",
+                  "root": "MuiListItem-root",
+                  "secondaryAction": "MuiListItem-secondaryAction",
+                  "selected": "Mui-selected",
+                }
+              }
+            >
+              <li
+                className="MuiListItem-root MuiListItem-gutters"
+                disabled={false}
+              >
+                <WithStyles(ForwardRef(ListItemIcon))
+                  key=".0"
+                >
+                  <ForwardRef(ListItemIcon)
+                    classes={
+                      Object {
+                        "alignItemsFlexStart": "MuiListItemIcon-alignItemsFlexStart",
+                        "root": "MuiListItemIcon-root",
+                      }
+                    }
+                  >
+                    <div
+                      className="MuiListItemIcon-root"
+                    >
+                      <ForwardRef
+                        style={
+                          Object {
+                            "color": "#37475A",
+                            "fontSize": 40,
+                          }
+                        }
+                      >
+                        <WithStyles(ForwardRef(SvgIcon))
+                          style={
+                            Object {
+                              "color": "#37475A",
+                              "fontSize": 40,
+                            }
+                          }
+                        >
+                          <ForwardRef(SvgIcon)
+                            classes={
+                              Object {
+                                "colorAction": "MuiSvgIcon-colorAction",
+                                "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                "colorError": "MuiSvgIcon-colorError",
+                                "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                "root": "MuiSvgIcon-root",
+                              }
+                            }
+                            style={
+                              Object {
+                                "color": "#37475A",
+                                "fontSize": 40,
+                              }
+                            }
+                          >
+                            <svg
+                              aria-hidden={true}
+                              className="MuiSvgIcon-root"
+                              focusable="false"
+                              style={
+                                Object {
+                                  "color": "#37475A",
+                                  "fontSize": 40,
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"
+                              />
+                            </svg>
+                          </ForwardRef(SvgIcon)>
+                        </WithStyles(ForwardRef(SvgIcon))>
+                      </ForwardRef>
+                    </div>
+                  </ForwardRef(ListItemIcon)>
+                </WithStyles(ForwardRef(ListItemIcon))>
+                <WithStyles(ForwardRef(ListItemText))
+                  key=".1"
+                  primary="Test"
+                >
+                  <ForwardRef(ListItemText)
+                    classes={
+                      Object {
+                        "dense": "MuiListItemText-dense",
+                        "inset": "MuiListItemText-inset",
+                        "multiline": "MuiListItemText-multiline",
+                        "primary": "MuiListItemText-primary",
+                        "root": "MuiListItemText-root",
+                        "secondary": "MuiListItemText-secondary",
+                      }
+                    }
+                    primary="Test"
+                  >
+                    <div
+                      className="MuiListItemText-root"
+                    >
+                      <WithStyles(ForwardRef(Typography))
+                        className="MuiListItemText-primary"
+                        component="span"
+                        display="block"
+                        variant="body1"
+                      >
+                        <ForwardRef(Typography)
+                          className="MuiListItemText-primary"
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                          component="span"
+                          display="block"
+                          variant="body1"
+                        >
+                          <span
+                            className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                          >
+                            Test
+                          </span>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                    </div>
+                  </ForwardRef(ListItemText)>
+                </WithStyles(ForwardRef(ListItemText))>
+              </li>
+            </ForwardRef(ListItem)>
+          </WithStyles(ForwardRef(ListItem))>
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+            onClick={[Function]}
+          >
+            <ForwardRef(ListItem)
+              button={true}
+              classes={
+                Object {
+                  "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+                  "button": "MuiListItem-button",
+                  "container": "MuiListItem-container",
+                  "dense": "MuiListItem-dense",
+                  "disabled": "Mui-disabled",
+                  "divider": "MuiListItem-divider",
+                  "focusVisible": "Mui-focusVisible",
+                  "gutters": "MuiListItem-gutters",
+                  "root": "MuiListItem-root",
+                  "secondaryAction": "MuiListItem-secondaryAction",
+                  "selected": "Mui-selected",
+                }
+              }
+              onClick={[Function]}
+            >
+              <WithStyles(ForwardRef(ButtonBase))
+                className="MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                component="div"
+                disabled={false}
+                focusVisibleClassName="Mui-focusVisible"
+                onClick={[Function]}
+              >
+                <ForwardRef(ButtonBase)
+                  className="MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "root": "MuiButtonBase-root",
+                    }
+                  }
+                  component="div"
+                  disabled={false}
+                  focusVisibleClassName="Mui-focusVisible"
+                  onClick={[Function]}
+                >
+                  <div
+                    aria-disabled={false}
+                    className="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    <WithStyles(ForwardRef(ListItemIcon))
+                      key=".0"
+                    >
+                      <ForwardRef(ListItemIcon)
+                        classes={
+                          Object {
+                            "alignItemsFlexStart": "MuiListItemIcon-alignItemsFlexStart",
+                            "root": "MuiListItemIcon-root",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiListItemIcon-root"
+                        >
+                          <ForwardRef
+                            color="action"
+                          >
+                            <WithStyles(ForwardRef(SvgIcon))
+                              color="action"
+                            >
+                              <ForwardRef(SvgIcon)
+                                classes={
+                                  Object {
+                                    "colorAction": "MuiSvgIcon-colorAction",
+                                    "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                    "colorError": "MuiSvgIcon-colorError",
+                                    "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                    "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                    "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                    "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                    "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                    "root": "MuiSvgIcon-root",
+                                  }
+                                }
+                                color="action"
+                              >
+                                <svg
+                                  aria-hidden={true}
+                                  className="MuiSvgIcon-root MuiSvgIcon-colorAction"
+                                  focusable="false"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 14H6l-2 2V5c0-.55.45-1 1-1h14c.55 0 1 .45 1 1v10c0 .55-.45 1-1 1z"
+                                  />
+                                </svg>
+                              </ForwardRef(SvgIcon)>
+                            </WithStyles(ForwardRef(SvgIcon))>
+                          </ForwardRef>
+                        </div>
+                      </ForwardRef(ListItemIcon)>
+                    </WithStyles(ForwardRef(ListItemIcon))>
+                    <WithStyles(ForwardRef(ListItemText))
+                      key=".1"
+                      primary="Comments"
+                    >
+                      <ForwardRef(ListItemText)
+                        classes={
+                          Object {
+                            "dense": "MuiListItemText-dense",
+                            "inset": "MuiListItemText-inset",
+                            "multiline": "MuiListItemText-multiline",
+                            "primary": "MuiListItemText-primary",
+                            "root": "MuiListItemText-root",
+                            "secondary": "MuiListItemText-secondary",
+                          }
+                        }
+                        primary="Comments"
+                      >
+                        <div
+                          className="MuiListItemText-root"
+                        >
+                          <WithStyles(ForwardRef(Typography))
+                            className="MuiListItemText-primary"
+                            component="span"
+                            display="block"
+                            variant="body1"
+                          >
+                            <ForwardRef(Typography)
+                              className="MuiListItemText-primary"
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                              component="span"
+                              display="block"
+                              variant="body1"
+                            >
+                              <span
+                                className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                              >
+                                Comments
+                              </span>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </div>
+                      </ForwardRef(ListItemText)>
+                    </WithStyles(ForwardRef(ListItemText))>
+                    <ForwardRef
+                      color="action"
+                      key=".2"
+                    >
+                      <WithStyles(ForwardRef(SvgIcon))
+                        color="action"
+                      >
+                        <ForwardRef(SvgIcon)
+                          classes={
+                            Object {
+                              "colorAction": "MuiSvgIcon-colorAction",
+                              "colorDisabled": "MuiSvgIcon-colorDisabled",
+                              "colorError": "MuiSvgIcon-colorError",
+                              "colorPrimary": "MuiSvgIcon-colorPrimary",
+                              "colorSecondary": "MuiSvgIcon-colorSecondary",
+                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                              "root": "MuiSvgIcon-root",
+                            }
+                          }
+                          color="action"
+                        >
+                          <svg
+                            aria-hidden={true}
+                            className="MuiSvgIcon-root MuiSvgIcon-colorAction"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                            />
+                          </svg>
+                        </ForwardRef(SvgIcon)>
+                      </WithStyles(ForwardRef(SvgIcon))>
+                    </ForwardRef>
+                    <WithStyles(memo)
+                      center={false}
+                    >
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
+                          }
+                        }
+                      >
+                        <span
+                          className="MuiTouchRipple-root"
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
+                        </span>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(memo)>
+                  </div>
+                </ForwardRef(ButtonBase)>
+              </WithStyles(ForwardRef(ButtonBase))>
+            </ForwardRef(ListItem)>
+          </WithStyles(ForwardRef(ListItem))>
+          <WithStyles(ForwardRef(Collapse))
+            disableStrictModeCompat={true}
+            in={false}
+            timeout="auto"
+            unmountOnExit={true}
+          >
+            <ForwardRef(Collapse)
+              classes={
+                Object {
+                  "container": "MuiCollapse-container",
+                  "entered": "MuiCollapse-entered",
+                  "hidden": "MuiCollapse-hidden",
+                  "wrapper": "MuiCollapse-wrapper",
+                  "wrapperInner": "MuiCollapse-wrapperInner",
+                }
+              }
+              disableStrictModeCompat={true}
+              in={false}
+              timeout="auto"
+              unmountOnExit={true}
+            >
+              <Transition
+                addEndListener={[Function]}
+                appear={false}
+                enter={true}
+                exit={true}
+                in={false}
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={null}
+                unmountOnExit={true}
+              />
+            </ForwardRef(Collapse)>
+          </WithStyles(ForwardRef(Collapse))>
+        </nav>
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
+  </Post>
+</Connect(Post)>
+`;
