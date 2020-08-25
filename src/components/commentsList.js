@@ -1,3 +1,9 @@
+/*
+commentList -> displays the list of comments.
+props:
+  -comments (array) ->array of comments
+
+*/
 import React from "react";
 import PropTypes from "prop-types";
 

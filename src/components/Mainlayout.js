@@ -1,3 +1,8 @@
+/*
+Mainlayout -> displays main layout of the application 
+props: n/a
+
+*/
 import React from "react";
 //material ui
 import Grid from "@material-ui/core/Grid";

@@ -1,3 +1,11 @@
+/*
+post -> displays post with title, body, id and comments list
+props: 
+  -title:(string) title of the post,
+  -body: (string) body of the post,
+  -id: (number) id of the post,
+  -comments: (array) list of comments that belong to the post
+*/
 import React from "react";
 import PropTypes from "prop-types";
 

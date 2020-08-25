@@ -1,3 +1,11 @@
+/*
+postList -> display list of posts with title, body, id , comments
+props:
+  -fetch_Posts: (function) get list posts from API
+  -fetch_Comments: (function) get list comments from api
+  -posts: (object) post list from redux
+*/
+
 //redux
 import React, { useEffect } from "react";
 import { connect } from "react-redux";

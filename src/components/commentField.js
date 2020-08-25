@@ -1,3 +1,10 @@
+/*
+commentField -> This component contains the text field to add comments to posts
+props:
+  -add_Comment (function) -> send comment to redux status
+  -id (number) -> id of the post in which the comment will be added
+
+*/
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 //redux

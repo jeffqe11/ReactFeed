@@ -9,10 +9,10 @@ import { shallow } from "enzyme";
 
 //components
 import ListItemText from "@material-ui/core/ListItemText";
-import Comments from "../src/components/commentsList";
-import Post from "../src/components/post";
-import AppBar from "../src/components/AppBarFeed";
-import CommentField from "../src/components/commentField";
+import Comments from "../components/commentsList";
+import Post from "../components/post";
+import AppBar from "../components/AppBarFeed";
+import CommentField from "../components/commentField";
 
 //store
 import configureMockStore from "redux-mock-store";

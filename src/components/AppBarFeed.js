@@ -1,3 +1,8 @@
+/*
+AppBarFeed -> This component contains the top bar of the application
+props -> n/a
+*/
+
 import React from "react";
 
 //material ui
