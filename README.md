@@ -1,6 +1,6 @@
 ## Project Description
 
-This project is based on a small application that shows a feed of posts in which comments can be added and viewed. This project was developed using react and redux and ui material elements in the interface.
+This project is based on a small application that shows a feed of posts in which comments can be added and viewed. This project was developed using react and redux and ui material elements in the user interface.
 
 for the development of this project the following api was used.
 
